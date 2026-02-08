@@ -1,0 +1,70 @@
+export default function LifeWorkshop() {
+  const items = [
+    {
+      title: "Success Blockers",
+      desc: "How to remove the elements that are blocking you from achieving Extraordinary Success in your Career.",
+      icon: "/icons/success.png",
+    },
+    {
+      title: "Upgrade your Brain",
+      desc: "3 Key techniques used by more than 1,00,000 people to upgrade their Brain to achieve desired goals in their life.",
+      icon: "/icons/brain.png",
+    },
+    {
+      title: "Shifting Energy Patterns",
+      desc: "How to vibrate at a Higher Frequency and Attract Money into your life easily.",
+      icon: "/icons/magnet.png",
+    },
+    {
+      title: "Wealth Creation",
+      desc: "How to create an Abundance Mindset that helps you create massive wealth and Success.",
+      icon: "/icons/wealth.png",
+    },
+  ];
+
+  return (
+    <section className="bg-white py-12">
+      <div className="max-w-7xl mx-auto px-4 relative">
+        {/* Heading */}
+        <h2 className="text-center text-4xl font-semibold mb-6">
+          What You Will Learn In The{" "}
+          <span className="text-orange-500">3–Hour Online Workshop</span>
+        </h2>
+
+        {/* Subheading */}
+        <p className="text-center text-xl text-gray-800 mt-20 mb-14">
+          Everything in the workshop is backed by Science
+        </p>
+
+        {/* Cards */}
+        <div className="grid md:grid-cols-2 gap-8">
+          {items.map((item, index) => (
+            <div
+              key={index}
+              className="bg-gray-100 rounded-2xl p-8 flex gap-6 items-start"
+            >
+              {/* Icon */}
+              <div className="bg-white rounded-xl p-4 shadow-sm">
+                <img
+                  src={item.icon}
+                  alt={item.title}
+                  className="w-12 h-12 object-contain"
+                />
+              </div>
+
+              {/* Content */}
+              <div>
+                <h3 className="text-2xl font-semibold text-gray-900 mb-3">
+                  {item.title}
+                </h3>
+                <p className="text-gray-700 leading-relaxed text-lg">
+                  {item.desc}
+                </p>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
