@@ -5,11 +5,11 @@ export default function Checkout() {
         {/* LEFT SIDE */}
         <div>
           <h1 className="text-3xl font-bold">
-            ULTIMATE SUCCESS BUILDER WORKSHOP – SXFB2
+            ONE DAY HEALING MASTER CLASS
           </h1>
-          <p className="mt-2 text-gray-600">By Successgyan</p>
+          <p className="mt-2 text-gray-600">By DIVINE VIKAS</p>
 
-          <h2 className="text-4xl font-bold mt-4">₹99</h2>
+          <h2 className="text-4xl font-bold mt-4">₹149</h2>
 
           <img
             src="https://via.placeholder.com/600x350"
@@ -19,11 +19,7 @@ export default function Checkout() {
 
           <div className="mt-6 space-y-3 text-gray-700">
             <p>📅 Start Date: Feb 14th, 2026, 9:30 a.m.</p>
-            <p>⏰ End Date: Feb 14th, 2026, 12:30 p.m.</p>
             <p>🌐 Venue: This is a virtual event.</p>
-            <p className="text-green-600 font-semibold">
-              💯 100% Refund if not satisfied
-            </p>
           </div>
         </div>
 
@@ -53,17 +49,17 @@ export default function Checkout() {
             <div className="border-t pt-4">
               <div className="flex justify-between">
                 <span>Service</span>
-                <span>₹99</span>
+                <span>₹149</span>
               </div>
 
               <div className="flex justify-between font-bold mt-2">
                 <span>Amount to be paid</span>
-                <span>₹99</span>
+                <span>₹149</span>
               </div>
             </div>
 
             <button className="w-full bg-orange-500 hover:bg-orange-600 text-white py-3 rounded-lg text-lg font-semibold">
-              Proceed to pay ₹99
+              Proceed to pay ₹149 only
             </button>
           </div>
         </div>

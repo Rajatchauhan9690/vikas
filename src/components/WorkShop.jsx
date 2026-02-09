@@ -14,11 +14,11 @@ export default function WorkShop() {
           {/* Left Card */}
           <div className="bg-gray-100 rounded-2xl p-10 shadow-sm">
             <h2 className="text-3xl font-semibold text-gray-800 mb-4">
-              Ultimate Success Builder Workshop
+              Limited Seats To Maintain Healing Quality
             </h2>
 
             <p className="text-gray-600 text-lg mb-6">
-              You will never need another course after this workshop!
+              You will never need another person to relax and calm you after this session!
             </p>
 
             <div className="flex items-center gap-3 mb-8">
@@ -26,13 +26,13 @@ export default function WorkShop() {
                 ✓
               </span>
               <p className="text-gray-700 text-lg">
-                <span className="font-semibold">6000+</span> people have already
+                <span className="font-semibold">1000+</span> people have already
                 registered.
               </p>
             </div>
 
             <button className="w-full bg-orange-500 hover:bg-orange-600 text-white rounded-xl py-4 text-xl font-semibold transition">
-              SIGN UP NOW FOR WORKSHOP
+              SIGN UP NOW FOR NEW BONUS
               <div className="text-sm font-normal mt-1">Limited Seats Left</div>
             </button>
           </div>
@@ -47,11 +47,10 @@ export default function WorkShop() {
               {[
                 "Success Blockers",
                 "Shifting Energy Patterns",
-                "Reticular Activation System",
+                "Activation of Parasympathetic Nervous System",
                 "Rewire Your Subconscious Mind",
-                "Upgrade your Brain",
-                "Wealth Creation",
-                "#1 Root Cause For Every Problem",
+                "Upgrade your Emotional Intelligence",
+                "Process emotions without pain",
               ].map((item, index) => (
                 <div key={index} className="flex items-start gap-4">
                   <span className="w-7 h-7 flex items-center justify-center rounded-full bg-orange-500 text-white text-sm font-bold">

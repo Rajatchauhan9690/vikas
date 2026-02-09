@@ -42,24 +42,24 @@ export default function Hero() {
         <div className="max-w-6xl mx-auto">
           <div className="text-center">
             <p className="text-sm md:text-base text-gray-600 font-medium flex justify-center items-center gap-2">
-              Reprogram Your Subconscious Mind <span>🧠</span>
+              Feeling Stuck, Drained or overwhelmed? <span>🧠</span>
             </p>
 
             <p className="mt-2 text-orange-500 font-semibold tracking-wide">
-              IN 3 HOURS
+              Acknowledge everything here!
             </p>
 
             <h2 className="mt-4 text-xl md:text-4xl font-extrabold text-black leading-snug">
-              Rewire Your Brain, Erase Negative Thinking Patterns, Beat
-              Procrastination To{" "}
+              Experience Powerful Holistic Healing That Works On The
+              Mind, Body, Emotions And Energy Systems{" "}
               <span className="text-orange-500">
-                Achieve Any Goal In Your Life
+              Release Blockages, Restore Balance.
               </span>
             </h2>
 
             <p className="mt-4 text-gray-700 text-sm md:text-lg">
-              Using the power of <strong>Science</strong> &{" "}
-              <strong>Psychology</strong>
+              Using the energy of <strong>Cosmos,</strong>
+              <strong>You and Me</strong>
             </p>
           </div>
         </div>
@@ -83,16 +83,17 @@ export default function Hero() {
 
           <div className="bg-gray-100 p-6 md:p-8 rounded-2xl">
             <h3 className="text-xl md:text-2xl font-extrabold text-black mb-6">
-              Why attend this workshop?
+              Why You Will Get In One Day?
             </h3>
 
             <ul className="space-y-4">
               {[
-                "Achieve success in all areas of your life.",
-                "Find real root cause of your sufferings and end them",
-                "Get rid of your limiting beliefs",
-                "Start feeling more relaxed allow calm after attending",
-                "Reprogram your mind to attract what you desire",
+                "Understanding whole body healing and energy alignment",
+                "Guided healing session for stress, anxiety, emotional heaviness & fatigue",
+                "Activation of self‑healing awareness",
+                "Techniques to calm the nervous system and balance energy flow",
+                "Feeling of lightness, clarity, and inner stability",
+                "Better understanding of your healing needs",
               ].map((text, index) => (
                 <li
                   key={index}
@@ -124,16 +125,17 @@ export default function Hero() {
               />
               <div>
                 <p className="text-sm text-gray-600">
-                  I will be your coach for <strong>3 Hours</strong>
+                  I will be the one <strong>to relax you</strong>
                 </p>
                 <h3 className="text-lg md:text-xl font-extrabold text-black">
-                  Dr. Meghana Dikshit
+                  VIKAS CHAUHAN
                 </h3>
                 <p className="text-orange-500 font-semibold text-sm">
-                  Brain & Performance Expert
+                  Guided Meditation Expert, Akashic Reader, 
+                  Astrology Aspirant
                 </p>
                 <p className="text-sm text-gray-600">
-                  Doctor, Life Coach, 28 Years Experience
+                  Learned from best mentors and real life experiences
                 </p>
               </div>
             </div>
@@ -141,9 +143,9 @@ export default function Hero() {
             <div className="bg-gray-100 rounded-2xl p-6 flex items-center gap-4">
               <div className="text-yellow-400 text-lg">★★★★★</div>
               <p className="text-sm md:text-base text-gray-800 font-medium">
-                India’s Highest Rated Mindset Program with{" "}
+                High Rated Meditation Facilitator{" "}
                 <strong>4.95 Stars</strong> by{" "}
-                <strong>2 Lakh+ Participants</strong>
+                <strong>1000+ participants</strong>
               </p>
             </div>
           </div>
@@ -155,12 +157,11 @@ export default function Hero() {
               </button>
             </Link>
             <p className="text-sm md:text-base text-gray-700">
-              Enrollment closes on <strong>08 FEB</strong>
+              Grab your Success Roadmap in <strong>just 5 minutes</strong>
             </p>
 
             <p className="text-sm md:text-base text-gray-700">
-              WORKSHOP STARTS ON <strong>14th Feb 2026</strong> (9:30 AM to
-              12:30 PM)
+              WORKSHOP STARTS ON <strong>14th Feb 2026</strong> (9:30 PM)
             </p>
 
             <h4 className="text-lg md:text-xl font-extrabold text-black mt-4">

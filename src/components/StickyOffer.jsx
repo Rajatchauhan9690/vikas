@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 export default function StickyOffer() {
   const [showBar, setShowBar] = useState(false);
-  const [timeLeft, setTimeLeft] = useState(600); // 10 minutes
+  const [timeLeft, setTimeLeft] = useState(300); // 10 minutes
 
   // Show bar after scroll
   useEffect(() => {
@@ -40,14 +40,15 @@ export default function StickyOffer() {
           {/* Price Info */}
           <div className="text-left">
             <div className="flex items-center gap-3">
-              <span className="text-3xl font-bold text-orange-500">₹99</span>
+              <span className="text-3xl font-bold text-orange-500">₹149</span>
               <span className="line-through font-semibold text-gray-400 text-lg">
-                ₹999
+                ₹1499
               </span>
             </div>
 
             <p className="text-gray-600 text-sm font-bold">
-              Offer Expires in{" "}
+              Offer Expires in
+              {" "}
               <span className="font-bold">
                 {minutes} : {seconds}
               </span>
@@ -55,7 +56,7 @@ export default function StickyOffer() {
           </div>
           <Link to="/checkout">
             <button className="bg-orange-500 hover:bg-orange-600 transition text-white px-5 sm:px-8 py-3 rounded-xl text-base sm:text-lg font-semibold shadow-md">
-              JOIN NOW
+              Book My Healing Session
             </button>
           </Link>
         </div>

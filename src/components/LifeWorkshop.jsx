@@ -6,19 +6,24 @@ export default function LifeWorkshop() {
       icon: "/icons/success.png",
     },
     {
-      title: "Upgrade your Brain",
-      desc: "3 Key techniques used by more than 1,00,000 people to upgrade their Brain to achieve desired goals in their life.",
+      title: "Upgrade your Emotional Intelligence",
+      desc: "How to process and heal the emotions without pain in your professional and personal life.",
       icon: "/icons/brain.png",
     },
     {
       title: "Shifting Energy Patterns",
-      desc: "How to vibrate at a Higher Frequency and Attract Money into your life easily.",
+      desc: "How to vibrate at a Higher Frequency and Attract happiness into your life easily.",
       icon: "/icons/magnet.png",
     },
     {
       title: "Wealth Creation",
       desc: "How to create an Abundance Mindset that helps you create massive wealth and Success.",
       icon: "/icons/wealth.png",
+    },
+    {
+      title: "Remedies On Mental Plain",
+      desc: "How to perform strong remedies on mental plain and get the benefits in real life.",
+      icon: "/icons/success.png",
     },
   ];
 
@@ -28,12 +33,12 @@ export default function LifeWorkshop() {
         {/* Heading */}
         <h2 className="text-center text-4xl font-semibold mb-6">
           What You Will Learn In The{" "}
-          <span className="text-orange-500">3–Hour Online Workshop</span>
+          <span className="text-orange-500">One Day Healing Workshop</span>
         </h2>
 
         {/* Subheading */}
         <p className="text-center text-xl text-gray-800 mt-20 mb-14">
-          Everything in the workshop is backed by Science
+          Everything in the workshop is backed by Universe
         </p>
 
         {/* Cards */}
