@@ -27,7 +27,7 @@ export default function Hero() {
         </h1>
 
         <p className="mt-2 text-[14px] md:text-lg max-w-2xl mx-auto">
-          Heal Deeply | Transform Gently
+          Heal Deeply | Transform Gently | Learn Easily
         </p>
 
         {/* <Link to="/checkout">
