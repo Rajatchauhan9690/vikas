@@ -99,7 +99,7 @@ export default function Hero() {
                   key={index}
                   className="flex items-start gap-4 bg-white p-4 rounded-xl shadow-sm"
                 >
-                  <span className="bg-orange-500 text-white min-w-7 min-h-7 flex items-center justify-center rounded-full font-bold">
+                  <span className="bg-orange-500 text-white flex-shrink-0 w-8 h-8 flex items-center justify-center rounded-full font-bold">
                     ✓
                   </span>
                   <p className="text-gray-800 text-sm md:text-base font-medium">

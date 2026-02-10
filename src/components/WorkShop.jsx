@@ -54,7 +54,7 @@ export default function WorkShop() {
                 "Process emotions without pain",
               ].map((item, index) => (
                 <div key={index} className="flex items-start gap-4">
-                  <span className="min-w-8 min-h-8 flex items-center justify-center rounded-full bg-orange-500 text-white text-sm font-bold">
+                  <span className="flex-shrink-0 w-8 h-8 flex items-center justify-center rounded-full bg-orange-500 text-white text-sm font-bold">
                     ✓
                   </span>
                   <p className="text-gray-700 text-lg">{item}</p>
