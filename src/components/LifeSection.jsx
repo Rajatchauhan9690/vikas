@@ -3,24 +3,22 @@ import React from "react";
 export default function LifeSection() {
   const items = [
     {
-      bold: "Remove money problems",
-      text: "by identifying and removing blockers causing them",
+      bold: "Feel emotionally stuck, drained, or overwhelmed",
     },
     {
-      bold: "Have extraordinary relationships",
-      text: "with your spouse, partner, family and friends",
+      bold: "Are dealing with stress, anxiety, or unresolved emotions",
     },
     {
-      bold: "Attract wealth, abundance",
-      text: "and prosperity in your life using powerful manifestation techniques",
+      bold: "Want natural, healing support",
     },
     {
-      bold: "Cure health issues",
-      text: "by reprogramming your subconscious mind",
+      bold: "Are curious about energy healing but unsure where to start",
     },
     {
-      bold: "Achieve Success In Business, Job & Studies",
-      text: "by removing all negative patterns",
+      bold: "Want to experience healing before committing healing to yourself",
+    },
+    {
+      bold: "Are ready to perform remedies on mental plain due to lack of time",
     },
   ];
 
@@ -30,8 +28,7 @@ export default function LifeSection() {
         {/* Heading */}
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-semibold text-gray-900">
-            What will <span className="text-orange-500">change</span> in your
-            life?
+            Who Is <span className="text-orange-500">this</span> for?
           </h2>
           <div className="w-16 h-1 bg-orange-500 mx-auto mt-4 rounded-full" />
         </div>

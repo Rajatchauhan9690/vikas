@@ -4,8 +4,7 @@ export default function Transform() {
       <div className="max-w-6xl mx-auto px-4 text-center">
         {/* Heading */}
         <h2 className="text-4xl font-semibold mb-4">
-          Transform all areas of your life in
-          <span className="text-orange-500">3 hours</span>
+          Transform all areas of your life
         </h2>
 
         <div className="w-16 h-1 bg-orange-500 mx-auto mb-16"></div>
@@ -25,7 +24,7 @@ export default function Transform() {
 
           <div className="absolute bottom-0 left-0 w-1/2 h-1/2 bg-slate-700 rounded-bl-full flex flex-col items-center justify-center text-white">
             <span className="text-5xl font-bold">03</span>
-            <span>Real</span>
+            <span>Personal</span>
           </div>
 
           <div className="absolute top-0 left-0 w-1/2 h-1/2 bg-teal-500 rounded-tl-full flex flex-col items-center justify-center text-white">
