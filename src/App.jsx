@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Hero from "./components/Hero";
+import Testimonial from "./components/Testimonial"
 import FAQ from "./components/FAQ";
 import WorkShop from "./components/WorkShop";
 import TransForm from "./components/Transform";
@@ -24,6 +25,7 @@ export default function App() {
               <LifeWorkshop />
               <Personal />
               <WorkShop />
+              <Testimonial/>
               <FAQ />
               <StickyOffer />
             </>
