@@ -3,27 +3,27 @@ export default function LifeWorkshop() {
     {
       title: "Success Blockers",
       desc: "How to remove the elements that are blocking you from achieving Extraordinary Success in your Career.",
-      icon: "/icons/success blockers.png",
+      icon: "/public/Images/success.png",
     },
     {
       title: "Upgrade your Emotional Intelligence",
       desc: "How to process and heal the emotions without pain in your professional and personal life.",
-      icon: "/icons/brain.png",
+      icon: "/public/Images/eint.png",
     },
     {
       title: "Shifting Energy Patterns",
       desc: "How to vibrate at a Higher Frequency and Attract happiness into your life easily.",
-      icon: "/icons/shift energy patterns.png",
+      icon: "/public/Images/energy1.png",
     },
     {
       title: "Wealth Creation",
       desc: "How to create an Abundance Mindset that helps you create massive wealth and Success.",
-      icon: "/icons/wealth mindset.png",
+      icon: "/public/Images/mind.png",
     },
     {
       title: "Remedies On Mental Plain",
       desc: "How to perform strong remedies on mental plain and get the benefits in real life.",
-      icon: "/icons/astrological remedies.png",
+      icon: "/Images/as.png",
     },
   ];
 
@@ -49,13 +49,14 @@ export default function LifeWorkshop() {
               className="bg-gray-100 rounded-2xl p-8 flex gap-6 items-start"
             >
               {/* Icon */}
-              <div className="bg-white rounded-xl p-4 shadow-sm">
+              <div className="bg-white rounded-xl shadow-sm min-w-20 min-h-20 flex items-center justify-center">
                 <img
                   src={item.icon}
                   alt={item.title}
-                  className="w-12 h-12 object-contain"
+                  className="w-full h-full object-contain"
                 />
               </div>
+
 
               {/* Content */}
               <div>
