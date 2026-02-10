@@ -24,7 +24,7 @@ const faqs = [
 ];
 
 export default function FAQSection() {
-  const [openIndex, setOpenIndex] = useState(1);
+  const [openIndex, setOpenIndex] = useState(null);
 
   const toggleFAQ = (index) => {
     setOpenIndex(openIndex === index ? null : index);
@@ -52,7 +52,7 @@ export default function FAQSection() {
                 </h3>
 
                 <span
-                  className={`flex items-center justify-center w-8 h-8 rounded-md text-white text-xl font-bold
+                  className={`flex items-center justify-center min-w-8 min-h-8  rounded-md text-white text-xl font-bold pb-1
                   ${openIndex === index ? "bg-gray-800" : "bg-orange-500"}`}
                 >
                   {openIndex === index ? "−" : "+"}
