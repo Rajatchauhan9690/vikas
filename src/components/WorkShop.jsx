@@ -18,7 +18,8 @@ export default function WorkShop() {
             </h2>
 
             <p className="text-gray-600 text-lg mb-6">
-              You will never need another person to relax and calm you after this session!
+              You will never need another person to relax and calm you after
+              this session!
             </p>
 
             <div className="flex items-center gap-3 mb-8">
@@ -31,7 +32,7 @@ export default function WorkShop() {
               </p>
             </div>
 
-            <button className="w-full bg-orange-500 hover:bg-orange-600 text-white rounded-xl py-4 text-xl font-semibold transition">
+            <button className="max-w-full bg-orange-500 hover:bg-orange-600 text-white rounded-xl py-4 px-4 text-xl font-semibold transition">
               SIGN UP NOW FOR NEW BONUS
               <div className="text-sm font-normal mt-1">Limited Seats Left</div>
             </button>
@@ -53,7 +54,7 @@ export default function WorkShop() {
                 "Process emotions without pain",
               ].map((item, index) => (
                 <div key={index} className="flex items-start gap-4">
-                  <span className="w-7 h-7 flex items-center justify-center rounded-full bg-orange-500 text-white text-sm font-bold">
+                  <span className="min-w-8 min-h-8 flex items-center justify-center rounded-full bg-orange-500 text-white text-sm font-bold">
                     ✓
                   </span>
                   <p className="text-gray-700 text-lg">{item}</p>

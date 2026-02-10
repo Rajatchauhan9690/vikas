@@ -50,10 +50,10 @@ export default function Hero() {
             </p>
 
             <h2 className="mt-4 text-xl md:text-4xl font-extrabold text-black leading-snug">
-              Experience Powerful Holistic Healing That Works On The
-              Mind, Body, Emotions And Energy Systems{" "}
+              Experience Powerful Holistic Healing That Works On The Mind, Body,
+              Emotions And Energy Systems{" "}
               <span className="text-orange-500">
-              Release Blockages, Restore Balance.
+                Release Blockages, Restore Balance.
               </span>
             </h2>
 
@@ -99,7 +99,7 @@ export default function Hero() {
                   key={index}
                   className="flex items-start gap-4 bg-white p-4 rounded-xl shadow-sm"
                 >
-                  <span className="bg-orange-500 text-white w-7 h-7 flex items-center justify-center rounded-full font-bold">
+                  <span className="bg-orange-500 text-white min-w-7 min-h-7 flex items-center justify-center rounded-full font-bold">
                     ✓
                   </span>
                   <p className="text-gray-800 text-sm md:text-base font-medium">
@@ -131,8 +131,7 @@ export default function Hero() {
                   VIKAS CHAUHAN
                 </h3>
                 <p className="text-orange-500 font-semibold text-sm">
-                  Guided Meditation Expert, Akashic Reader, 
-                  Astrology Aspirant
+                  Guided Meditation Expert, Akashic Reader, Astrology Aspirant
                 </p>
                 <p className="text-sm text-gray-600">
                   Learned from best mentors and real life experiences
@@ -143,8 +142,7 @@ export default function Hero() {
             <div className="bg-gray-100 rounded-2xl p-6 flex items-center gap-4">
               <div className="text-yellow-400 text-lg">★★★★★</div>
               <p className="text-sm md:text-base text-gray-800 font-medium">
-                High Rated Meditation Facilitator{" "}
-                <strong>4.95 Stars</strong> by{" "}
+                High Rated Meditation Facilitator <strong>4.95 Stars</strong> by{" "}
                 <strong>1000+ participants</strong>
               </p>
             </div>
