@@ -120,7 +120,7 @@ export default function Hero() {
               <img
                 src="/Images/myphoto.png"
                 alt="Dr. Vikas Chauhan"
-                className="flex-shrink-0 w-30 h-30 rounded-full border-2 border-orange-400 object-cover"
+                className="flex-shrink-0 w-18 h-18 rounded-full border-4 border-orange-400 object-cover"
               />
               <div>
                 <p className="text-sm text-gray-600">
