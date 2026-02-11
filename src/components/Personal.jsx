@@ -12,7 +12,7 @@ export default function Personal() {
     <section className="w-full bg-white py-10 px-6">
       <div className="max-w-6xl mx-auto">
         {/* Heading */}
-        <div className="text-center mb-12">
+        <div className="text-center mb-8">
           <h2 className="text-3xl md:text-4xl font-semibold text-gray-900">
             This could be <span className="text-orange-500">your life..</span>
           </h2>

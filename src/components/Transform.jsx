@@ -1,6 +1,6 @@
 export default function Transform() {
   return (
-    <section className="bg-white py-12">
+    <section className="bg-white py-10">
       <div className="max-w-6xl mx-auto px-4 text-center">
         {/* Heading */}
         <h2 className="text-4xl font-semibold mb-4">

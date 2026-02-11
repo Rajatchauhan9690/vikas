@@ -1,9 +1,9 @@
 export default function WorkShop() {
   return (
-    <section className="bg-white py-12">
+    <section className="bg-white py-10">
       <div className="max-w-7xl mx-auto px-4 relative">
         {/* Top Heading */}
-        <h1 className="text-center text-4xl md:text-5xl font-semibold mb-14">
+        <h1 className="text-center text-4xl md:text-5xl font-semibold mb-8">
           Everything you need to achieve{" "}
           <span className="text-orange-500">success</span>…{" "}
           <span className="text-orange-500">is inside this workshop!</span>
@@ -23,7 +23,7 @@ export default function WorkShop() {
             </p>
 
             <div className="flex items-center gap-3 mb-8">
-              <span className="w-6 h-6 flex items-center justify-center rounded-full border-2 border-orange-500 text-orange-500">
+              <span className="flex-shrink-0 w-8 h-8 flex items-center justify-center rounded-full border-2 border-orange-500 text-orange-500">
                 ✓
               </span>
               <p className="text-gray-700 text-lg">

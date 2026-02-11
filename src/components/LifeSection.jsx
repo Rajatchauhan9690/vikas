@@ -23,7 +23,7 @@ export default function LifeSection() {
   ];
 
   return (
-    <section className="w-full bg-white py-12 px-6">
+    <section className="w-full bg-white py-10 px-6">
       <div className="max-w-5xl mx-auto">
         {/* Heading */}
         <div className="text-center mb-12">

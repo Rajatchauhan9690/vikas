@@ -28,7 +28,7 @@ export default function LifeWorkshop() {
   ];
 
   return (
-    <section className="bg-white py-12">
+    <section className="bg-white py-10">
       <div className="max-w-7xl mx-auto px-4 relative">
         {/* Heading */}
         <h2 className="text-center text-4xl font-semibold mb-6">
@@ -37,7 +37,7 @@ export default function LifeWorkshop() {
         </h2>
 
         {/* Subheading */}
-        <p className="text-center text-xl text-gray-800 mt-20 mb-14">
+        <p className="text-center text-xl text-gray-800 m-8">
           Everything in the workshop is backed by Universe
         </p>
 

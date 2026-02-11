@@ -38,7 +38,7 @@ export default function Hero() {
       </section>
 
       {/* ===== Side-by-Side Image + Text Section ===== */}
-      <section className="bg-white px-4 py-12">
+      <section className="bg-white px-4 py-10">
         <div className="max-w-6xl mx-auto">
           <div className="text-center">
             <p className="text-sm md:text-base text-gray-600 font-medium flex justify-center items-center gap-2">
@@ -67,13 +67,14 @@ export default function Hero() {
       </section>
 
       {/* ===== Video + Why Attend Section ===== */}
-      <section className="bg-white px-4 py-12">
+      <section className="bg-white px-4 py-10">
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center">
           {/* Image Container */}
           <div className=" rounded-lg overflow-hidden shadow-lg w-full h-60 md:h-[350px] lg:h-[400px]">
             <img
               src="/Images/myphoto.png"
               alt="Workshop Video"
+              loading="lazy"
               className="w-full h-full object-contain"
             />
           </div>
@@ -111,7 +112,7 @@ export default function Hero() {
       </section>
 
       {/* ===== Coach + Join Now Section ===== */}
-      <section className="bg-white px-4 py-8">
+      <section className="bg-white px-4 pb-10">
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-start">
           {/* Left */}
           <div className="space-y-6">
@@ -152,7 +153,7 @@ export default function Hero() {
                 JOIN NOW
               </button>
             </Link>
-            <p className="text-sm md:text-base text-gray-700">
+            <p className="text-sm md:text-base text-gray-700 mt-4">
               Grab your Success Roadmap in <strong>just 5 minutes</strong>
             </p>
 
