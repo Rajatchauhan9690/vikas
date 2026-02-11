@@ -3,22 +3,22 @@ export default function LifeWorkshop() {
     {
       title: "Success Blockers",
       desc: "How to remove the elements that are blocking you from achieving Extraordinary Success in your Career.",
-      icon: "/public/Images/success.png",
+      icon: "/Images/success.png",
     },
     {
       title: "Upgrade your Emotional Intelligence",
       desc: "How to process and heal the emotions without pain in your professional and personal life.",
-      icon: "/public/Images/eint.png",
+      icon: "/Images/eint.png",
     },
     {
       title: "Shifting Energy Patterns",
       desc: "How to vibrate at a Higher Frequency and Attract happiness into your life easily.",
-      icon: "/public/Images/energy1.png",
+      icon: "/Images/energy1.png",
     },
     {
       title: "Wealth Creation",
       desc: "How to create an Abundance Mindset that helps you create massive wealth and Success.",
-      icon: "/public/Images/mind.png",
+      icon: "/Images/mind.png",
     },
     {
       title: "Remedies On Mental Plain",

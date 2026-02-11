@@ -46,7 +46,7 @@ export default function WorkShop() {
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
               {[
-                "Success Blockers",
+                "Removal of Success Blockers",
                 "Shifting Energy Patterns",
                 "Activation of Parasympathetic Nervous System",
                 "Rewire Your Subconscious Mind",
