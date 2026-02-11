@@ -1,5 +1,12 @@
 import React from "react";
 
+const images = [
+  { src: "/Images/yoga.png", alt: "People sitting on mountain" },
+  { src: "/Images/happy family.png", alt: "Couple at sunset" },
+  { src: "/Images/businessmen.png", alt: "Businessmen meeting" },
+  { src: "/Images/couple.png", alt: "Couple enjoying outdoors" },
+];
+
 export default function Personal() {
   return (
     <section className="w-full bg-white py-10 px-6">
@@ -11,47 +18,22 @@ export default function Personal() {
           </h2>
           <div className="w-16 h-1 bg-orange-500 mx-auto mt-4 rounded-full" />
         </div>
-        
+
         {/* Images Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          {/* Left Image */}
-          <div className="rounded-2xl overflow-hidden shadow-lg">
-            <img
-              src="/Images/yoga.png"
-              alt="People sitting on mountain"
-              className="w-full h-[300px] object-cover"
-            />
-          </div>
-
-          {/* Right Image */}
-          <div className="rounded-2xl overflow-hidden shadow-lg">
-            <img
-              src="/Images/happy family.png"
-              alt="Couple at sunset"
-              className="w-full h-[300px] object-cover"
-            />
-          </div>
-        </div>
-
-        {/* Images Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
-          {/* Left Image */}
-          <div className="rounded-2xl overflow-hidden shadow-lg">
-            <img
-              src="/Images/businessmen.png"
-              alt="People sitting on mountain"
-              className="w-full h-[300px] object-cover"
-            />
-          </div>
-
-          {/* Right Image */}
-          <div className="rounded-2xl overflow-hidden shadow-lg">
-            <img
-              src="/Images/couple.png"
-              alt="Couple at sunset"
-              className="w-full h-[300px] object-cover"
-            />
-          </div>
+          {images.map((image, index) => (
+            <div
+              key={index}
+              className="rounded-2xl overflow-hidden shadow-lg w-full h-64 md:h-80 lg:h-96"
+            >
+              <img
+                src={image.src}
+                alt={image.alt}
+                loading="lazy" // ✅ lazy loading added
+                className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
+              />
+            </div>
+          ))}
         </div>
       </div>
     </section>

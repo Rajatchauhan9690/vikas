@@ -2,8 +2,8 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 export default function Hero() {
   // ===== TIMER LOGIC =====
-  const TOTAL_TIME = 5 * 60; // 5 minutes
-  const [timeLeft, setTimeLeft] = useState(TOTAL_TIME);
+
+  const [timeLeft, setTimeLeft] = useState(300);
 
   useEffect(() => {
     if (timeLeft <= 0) return;
@@ -42,15 +42,16 @@ export default function Hero() {
         <div className="max-w-6xl mx-auto">
           <div className="text-center">
             <p className="text-sm md:text-base text-gray-600 font-medium flex justify-center items-center gap-2">
-              Feeling Stuck, Drained or overwhelmed?
-              or want to explore cosmos? <span>🧠</span>
+              Feeling Stuck, Drained or overwhelmed? or want to explore cosmos?{" "}
+              <span>🧠</span>
             </p>
             <p className="mt-2 text-orange-500 font-semibold tracking-wide">
               Acknowledge everything here!
             </p>
 
             <h2 className="mt-4 text-xl md:text-4xl font-extrabold text-black leading-snug">
-              Experience Powerful Holistic Method Of Healing <span className="text-orange-500">That Works On The </span>
+              Experience Powerful Holistic Method Of Healing{" "}
+              <span className="text-orange-500">That Works On The </span>
               Mind, Body, Emotions And Energy Systems{" "}
               <span className="text-orange-500">
                 Release Blockages, Restore Balance.
@@ -68,19 +69,17 @@ export default function Hero() {
       {/* ===== Video + Why Attend Section ===== */}
       <section className="bg-white px-4 py-12">
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center">
-          <div className="relative rounded-2xl overflow-hidden shadow-lg">
+          {/* Image Container */}
+          <div className=" rounded-lg overflow-hidden shadow-lg w-full h-60 md:h-[350px] lg:h-[400px]">
             <img
-              src="/video-thumbnail.jpg"
+              src="/Images/myphoto.png"
               alt="Workshop Video"
-              className="w-full h-full object-cover"
+              loading="lazy"
+              className="w-full h-full object-contain"
             />
-            <div className="absolute inset-0 flex items-center justify-center">
-              <div className="bg-red-600 p-5 rounded-full cursor-pointer">
-                ▶
-              </div>
-            </div>
           </div>
 
+          {/* Content */}
           <div className="bg-gray-100 p-6 md:p-8 rounded-2xl">
             <h3 className="text-xl md:text-2xl font-extrabold text-black mb-6">
               Why You Will Get In One Day?
@@ -120,8 +119,9 @@ export default function Hero() {
             <div className="bg-gray-100 rounded-2xl p-6 flex gap-4 items-center">
               <img
                 src="/Images/myphoto.png"
-                alt="Dr. Meghana Dikshit"
-                className="w-16 h-16 rounded-full border-4 border-orange-400 object-cover"
+                alt="Dr. Vikas Chauhan"
+                loading="lazy"
+                className="flex-shrink-0 w-30 h-30 rounded-full border-2 border-orange-400 object-cover"
               />
               <div>
                 <p className="text-sm text-gray-600">
