@@ -27,7 +27,7 @@ export default function Hero() {
         </h1>
 
         <p className="mt-2 text-[14px] md:text-lg max-w-2xl mx-auto">
-          Heal Deeply | Transform Gently
+          Heal Deeply | Transform Gently | Learn Easily
         </p>
 
         {/* <Link to="/checkout">
@@ -42,16 +42,16 @@ export default function Hero() {
         <div className="max-w-6xl mx-auto">
           <div className="text-center">
             <p className="text-sm md:text-base text-gray-600 font-medium flex justify-center items-center gap-2">
-              Feeling Stuck, Drained or overwhelmed? <span>🧠</span>
+              Feeling Stuck, Drained or overwhelmed?
+              or want to explore cosmos? <span>🧠</span>
             </p>
-
             <p className="mt-2 text-orange-500 font-semibold tracking-wide">
               Acknowledge everything here!
             </p>
 
             <h2 className="mt-4 text-xl md:text-4xl font-extrabold text-black leading-snug">
-              Experience Powerful Holistic Healing That Works On The Mind, Body,
-              Emotions And Energy Systems{" "}
+              Experience Powerful Holistic Method Of Healing <span className="text-orange-500">That Works On The </span>
+              Mind, Body, Emotions And Energy Systems{" "}
               <span className="text-orange-500">
                 Release Blockages, Restore Balance.
               </span>
@@ -119,13 +119,13 @@ export default function Hero() {
           <div className="space-y-6">
             <div className="bg-gray-100 rounded-2xl p-6 flex gap-4 items-center">
               <img
-                src="/coach.jpg"
+                src="/Images/myphoto.png"
                 alt="Dr. Meghana Dikshit"
                 className="w-16 h-16 rounded-full border-4 border-orange-400 object-cover"
               />
               <div>
                 <p className="text-sm text-gray-600">
-                  I will be the one <strong>to relax you</strong>
+                  I will be the one <strong>to help you</strong>
                 </p>
                 <h3 className="text-lg md:text-xl font-extrabold text-black">
                   VIKAS CHAUHAN

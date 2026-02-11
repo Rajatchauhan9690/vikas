@@ -2,14 +2,9 @@ import { useState } from "react";
 
 const faqs = [
   {
-    question: "Is it worth investing in the ULTIMATE SUCCESS BUILDER WORKSHOP?",
+    question: "Is it worth investing in the ONE DAY HEALING MASTER CLASS?",
     answer:
-      "Absolutely. The workshop is designed to give you practical frameworks, clarity, and actionable steps to build long-term success.",
-  },
-  {
-    question: "When is the workshop?",
-    answer:
-      "You can get all the details related to the timings and dates of the workshop at the top of the page.",
+      "Absolutely. The MASTER CLASS is designed to give you practical frameworks, clarity, and actionable steps to build long-term success.",
   },
   {
     question: "How will I get the link to attend the program?",
@@ -17,9 +12,9 @@ const faqs = [
       "Once you register successfully, the joining link will be sent to your registered email ID before the session.",
   },
   {
-    question: "I made the payment but didn’t receive any email",
+    question: "I made the payment but didn’t receive any meeting link",
     answer:
-      "Please check your spam or promotions folder. If you still don’t find it, contact our support team with your payment details.",
+      "If you still don’t find it, contact our support team with your payment details.",
   },
 ];
 

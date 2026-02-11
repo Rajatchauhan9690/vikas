@@ -24,7 +24,7 @@ export default function Transform() {
 
           <div className="absolute bottom-0 left-0 w-1/2 h-1/2 bg-slate-700 rounded-bl-full flex flex-col items-center justify-center text-white">
             <span className="text-5xl font-bold">03</span>
-            <span>Personal</span>
+            <span>Relationship</span>
           </div>
 
           <div className="absolute top-0 left-0 w-1/2 h-1/2 bg-teal-500 rounded-tl-full flex flex-col items-center justify-center text-white">
@@ -39,9 +39,9 @@ export default function Transform() {
               <div className="w-28 h-28 rounded-full border-4 border-orange-500 flex items-center justify-center">
                 {/* Brain Image */}
                 <img
-                  src="/brain.png" // 🔥 replace with your actual image path
+                  src="/Images/you.png" // 🔥 replace with your actual image path
                   alt="Brain"
-                  className="w-16 h-16 object-contain"
+                  className="w-25 h-20 object-contain"
                 />
               </div>
             </div>

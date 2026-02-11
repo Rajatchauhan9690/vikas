@@ -11,13 +11,13 @@ export default function Personal() {
           </h2>
           <div className="w-16 h-1 bg-orange-500 mx-auto mt-4 rounded-full" />
         </div>
-
+        
         {/* Images Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {/* Left Image */}
           <div className="rounded-2xl overflow-hidden shadow-lg">
             <img
-              src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=1600&auto=format&fit=crop"
+              src="/Images/yoga.png"
               alt="People sitting on mountain"
               className="w-full h-[300px] object-cover"
             />
@@ -26,7 +26,28 @@ export default function Personal() {
           {/* Right Image */}
           <div className="rounded-2xl overflow-hidden shadow-lg">
             <img
-              src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?q=80&w=1600&auto=format&fit=crop"
+              src="/Images/happy family.png"
+              alt="Couple at sunset"
+              className="w-full h-[300px] object-cover"
+            />
+          </div>
+        </div>
+
+        {/* Images Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
+          {/* Left Image */}
+          <div className="rounded-2xl overflow-hidden shadow-lg">
+            <img
+              src="/Images/businessmen.png"
+              alt="People sitting on mountain"
+              className="w-full h-[300px] object-cover"
+            />
+          </div>
+
+          {/* Right Image */}
+          <div className="rounded-2xl overflow-hidden shadow-lg">
+            <img
+              src="/Images/couple.png"
               alt="Couple at sunset"
               className="w-full h-[300px] object-cover"
             />
