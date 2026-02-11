@@ -17,7 +17,7 @@ export default function Personal() {
           {/* Left Image */}
           <div className="rounded-2xl overflow-hidden shadow-lg">
             <img
-              src="/public/Images/yoga.png"
+              src="/Images/yoga.png"
               alt="People sitting on mountain"
               className="w-full h-[300px] object-cover"
             />
@@ -26,7 +26,7 @@ export default function Personal() {
           {/* Right Image */}
           <div className="rounded-2xl overflow-hidden shadow-lg">
             <img
-              src="/public/Images/happy family.png"
+              src="/Images/happy family.png"
               alt="Couple at sunset"
               className="w-full h-[300px] object-cover"
             />
@@ -38,7 +38,7 @@ export default function Personal() {
           {/* Left Image */}
           <div className="rounded-2xl overflow-hidden shadow-lg">
             <img
-              src="/public/Images/businessmen.png"
+              src="/Images/businessmen.png"
               alt="People sitting on mountain"
               className="w-full h-[300px] object-cover"
             />
@@ -47,7 +47,7 @@ export default function Personal() {
           {/* Right Image */}
           <div className="rounded-2xl overflow-hidden shadow-lg">
             <img
-              src="/public/Images/couple.png"
+              src="/Images/couple.png"
               alt="Couple at sunset"
               className="w-full h-[300px] object-cover"
             />

@@ -33,7 +33,7 @@ export default function LifeWorkshop() {
         {/* Heading */}
         <h2 className="text-center text-4xl font-semibold mb-6">
           What You Will Learn In The{" "}
-          <span className="text-orange-500">One Day Healing Workshop</span>
+          <span className="text-orange-500">One Day Healing Master Class</span>
         </h2>
 
         {/* Subheading */}
