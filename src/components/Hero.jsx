@@ -74,7 +74,6 @@ export default function Hero() {
             <img
               src="/Images/myphoto.png"
               alt="Workshop Video"
-              loading="lazy"
               className="w-full h-full object-contain"
             />
           </div>
@@ -120,7 +119,6 @@ export default function Hero() {
               <img
                 src="/Images/myphoto.png"
                 alt="Dr. Vikas Chauhan"
-                loading="lazy"
                 className="flex-shrink-0 w-30 h-30 rounded-full border-2 border-orange-400 object-cover"
               />
               <div>

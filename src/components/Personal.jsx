@@ -29,7 +29,6 @@ export default function Personal() {
               <img
                 src={image.src}
                 alt={image.alt}
-                loading="lazy" // ✅ lazy loading added
                 className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
               />
             </div>

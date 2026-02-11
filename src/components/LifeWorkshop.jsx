@@ -53,7 +53,6 @@ export default function LifeWorkshop() {
                 <img
                   src={item.icon}
                   alt={item.title}
-                  loading="lazy"
                   className="w-full h-full object-contain"
                 />
               </div>

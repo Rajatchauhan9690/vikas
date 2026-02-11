@@ -47,7 +47,7 @@ export default function FAQSection() {
                 </h3>
 
                 <span
-                  className={`flex items-center justify-center flex-shrink-0 w-8 h-8  rounded-md text-white text-xl font-bold pb-1
+                  className={`flex items-center justify-center flex-shrink-0 w-8 h-8  rounded-md text-white text-xl font-bold md:pb-1
                   ${openIndex === index ? "bg-gray-800" : "bg-orange-500"}`}
                 >
                   {openIndex === index ? "−" : "+"}
