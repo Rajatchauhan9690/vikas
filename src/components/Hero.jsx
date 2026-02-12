@@ -1,8 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 export default function Hero() {
-  // ===== TIMER LOGIC =====
-
   const [timeLeft, setTimeLeft] = useState(300);
 
   useEffect(() => {
@@ -17,6 +15,45 @@ export default function Hero() {
 
   const minutes = String(Math.floor(timeLeft / 60)).padStart(2, "0");
   const seconds = String(timeLeft % 60).padStart(2, "0");
+  const users = [
+    "Rajat",
+    "Aman",
+    "Priya",
+    "Neha",
+    "Arjun",
+    "Simran",
+    "Karan",
+    "Anjali",
+    "Rahul",
+    "Pooja",
+    "Vikram",
+    "Sneha",
+    "Aditya",
+    "Kavya",
+    "Rohit",
+    "Isha",
+    "Manish",
+    "Nikita",
+    "Sahil",
+    "Megha",
+    "Yash",
+    "Tanya",
+  ];
+
+  const [toastMessage, setToastMessage] = useState("");
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      const randomUser = users[Math.floor(Math.random() * users.length)];
+      setToastMessage(`${randomUser} has joined`);
+
+      setTimeout(() => {
+        setToastMessage("");
+      }, 3000);
+    }, 6000);
+
+    return () => clearInterval(interval);
+  }, []);
 
   return (
     <>
@@ -182,6 +219,14 @@ export default function Hero() {
           </div>
         </div>
       </section>
+      {/* ===== Center Toast ===== */}
+      {toastMessage && (
+        <section className="fixed inset-0 z-50 flex items-center justify-center">
+          <div className=" text-black px-8 py-4 rounded-lg text-lg ">
+            {toastMessage}
+          </div>
+        </section>
+      )}
     </>
   );
 }
