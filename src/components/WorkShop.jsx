@@ -1,9 +1,9 @@
 export default function WorkShop() {
   return (
-    <section className="bg-white py-10">
+    <section className="bg-white pb-10">
       <div className="max-w-7xl mx-auto px-4 relative">
         {/* Top Heading */}
-        <h1 className="text-center text-4xl md:text-5xl font-semibold mb-8">
+        <h1 className="text-center text-4xl md:text-5xl font-semibold mb-6">
           Everything you need to achieve{" "}
           <span className="text-orange-500">success</span>…{" "}
           <span className="text-orange-500">is inside this workshop!</span>
@@ -12,7 +12,7 @@ export default function WorkShop() {
         {/* Main Content */}
         <div className="grid md:grid-cols-2 gap-12 items-start mt-20">
           {/* Left Card */}
-          <div className="bg-gray-100 rounded-2xl p-10 shadow-sm">
+          <div className="bg-gray-100 rounded-2xl p-10">
             <h2 className="text-3xl font-semibold text-gray-800 mb-4">
               Limited Seats To Maintain Healing Quality
             </h2>

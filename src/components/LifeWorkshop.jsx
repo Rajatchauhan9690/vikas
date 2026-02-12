@@ -49,7 +49,7 @@ export default function LifeWorkshop() {
               className="bg-gray-100 rounded-2xl p-8 flex gap-6 items-start"
             >
               {/* Icon */}
-              <div className="bg-white rounded-xl shadow-sm min-w-20 min-h-20 flex items-center justify-center">
+              <div className="bg-white rounded-xl  min-w-20 min-h-20 flex items-center justify-center">
                 <img
                   src={item.icon}
                   alt={item.title}

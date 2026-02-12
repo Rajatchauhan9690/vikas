@@ -36,7 +36,7 @@ export default function FAQSection() {
         {/* FAQ Items */}
         <div className="space-y-4">
           {faqs.map((faq, index) => (
-            <div key={index} className="bg-white rounded-2xl shadow-sm p-4">
+            <div key={index} className="bg-white rounded-2xl p-4">
               {/* Question */}
               <div
                 className="flex justify-between items-center cursor-pointer"

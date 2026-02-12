@@ -34,7 +34,7 @@ export default function Transform() {
 
           {/* Center Ring */}
           <div className="absolute inset-0 flex items-center justify-center">
-            <div className="w-36 h-36 rounded-full bg-white shadow-lg flex items-center justify-center">
+            <div className="w-36 h-36 rounded-full bg-white flex items-center justify-center">
               {/* Outer ring */}
               <div className="w-28 h-28 rounded-full border-4 border-orange-500 flex items-center justify-center">
                 {/* Brain Image */}

@@ -9,7 +9,7 @@ const images = [
 
 export default function Personal() {
   return (
-    <section className="w-full bg-white py-10 px-6">
+    <section className="w-full bg-white pb-10 px-6">
       <div className="max-w-6xl mx-auto">
         {/* Heading */}
         <div className="text-center mb-8">
@@ -24,7 +24,7 @@ export default function Personal() {
           {images.map((image, index) => (
             <div
               key={index}
-              className="rounded-2xl overflow-hidden shadow-lg w-full h-64 md:h-80 lg:h-96"
+              className="rounded-2xl overflow-hidden w-full h-64 md:h-80 lg:h-96"
             >
               <img
                 src={image.src}

@@ -35,7 +35,7 @@ export default function StickyOffer() {
       className={`fixed bottom-0 left-0 w-full z-50 transition-transform duration-500
       ${showBar ? "translate-y-0" : "translate-y-full"}`}
     >
-      <div className="bg-white border-t-6 border-orange-500 shadow-2xl rounded-t-2xl px-6 py-4">
+      <div className="bg-white border-t-6 border-orange-500 rounded-t-2xl px-6 py-4">
         <div className="max-w-6xl mx-auto flex flex-row items-center justify-between gap-4">
           {/* Price Info */}
           <div className="text-left">
@@ -47,8 +47,7 @@ export default function StickyOffer() {
             </div>
 
             <p className="text-gray-600 text-sm font-bold">
-              Offer Expires in
-              {" "}
+              Offer Expires in{" "}
               <span className="font-bold">
                 {minutes} : {seconds}
               </span>

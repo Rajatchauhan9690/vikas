@@ -42,8 +42,7 @@ export default function Hero() {
         <div className="max-w-6xl mx-auto">
           <div className="text-center">
             <p className="text-sm md:text-base text-gray-600 font-medium flex justify-center items-center gap-2">
-              Feeling Stuck, Drained or overwhelmed? or want to explore cosmos?{" "}
-              <span>🧠</span>
+              Feeling Stuck, Drained or overwhelmed? or want to explore cosmos?
             </p>
             <p className="mt-2 text-orange-500 font-semibold tracking-wide">
               Acknowledge everything here!
@@ -70,7 +69,7 @@ export default function Hero() {
       <section className="bg-white px-4 py-10">
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center">
           {/* Image Container */}
-          <div className=" rounded-lg overflow-hidden shadow-lg w-full h-60 md:h-[350px] lg:h-[400px]">
+          <div className=" rounded-lg overflow-hidden  w-full h-60 md:h-[350px] lg:h-[400px]">
             <img
               src="/Images/myphoto.png"
               alt="Workshop Video"
@@ -96,7 +95,7 @@ export default function Hero() {
               ].map((text, index) => (
                 <li
                   key={index}
-                  className="flex items-start gap-4 bg-white p-4 rounded-xl shadow-sm"
+                  className="flex items-start gap-4 bg-white p-4 rounded-xl"
                 >
                   <span className="bg-orange-500 text-white flex-shrink-0 w-8 h-8 flex items-center justify-center rounded-full font-bold">
                     ✓
@@ -112,7 +111,7 @@ export default function Hero() {
       </section>
 
       {/* ===== Coach + Join Now Section ===== */}
-      <section className="bg-white px-4 pb-10">
+      <section className="bg-white px-4">
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-start">
           {/* Left */}
           <div className="space-y-6">
@@ -149,7 +148,7 @@ export default function Hero() {
 
           <div className="text-center space-y-5">
             <Link to="/checkout">
-              <button className="w-full bg-orange-500 hover:bg-orange-600 transition text-white py-4 rounded-full text-lg font-extrabold shadow-lg">
+              <button className="w-full bg-orange-500 hover:bg-orange-600 transition text-white py-4 rounded-full text-lg font-extrabold ">
                 JOIN NOW
               </button>
             </Link>

@@ -113,7 +113,7 @@ const TestimonialSection = () => {
   };
 
   return (
-    <section className="relative w-full bg-gray-100 py-10 md:py-14 flex items-center justify-center overflow-hidden">
+    <section className="relative w-full bg-gray-100 py-10 md:py-10 flex items-center justify-center ">
       <div className="w-full max-w-4xl px-4 text-center">
         <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8 md:mb-10">
           What People Say

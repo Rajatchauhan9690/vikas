@@ -4,9 +4,7 @@ export default function Checkout() {
       <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-10 p-6">
         {/* LEFT SIDE */}
         <div>
-          <h1 className="text-3xl font-bold">
-            ONE DAY HEALING MASTER CLASS
-          </h1>
+          <h1 className="text-3xl font-bold">ONE DAY HEALING MASTER CLASS</h1>
           <p className="mt-2 text-gray-600">By DIVINE VIKAS</p>
 
           <h2 className="text-4xl font-bold mt-4">₹149</h2>
@@ -24,7 +22,7 @@ export default function Checkout() {
         </div>
 
         {/* RIGHT SIDE */}
-        <div className="bg-white rounded-xl shadow p-6">
+        <div className="bg-white rounded-xl  p-6">
           <h2 className="text-xl font-semibold mb-4">Payment details</h2>
 
           <div className="space-y-4">
