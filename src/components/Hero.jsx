@@ -50,7 +50,7 @@ export default function Hero() {
       setTimeout(() => {
         setToastMessage("");
       }, 3000);
-    }, 6000);
+    }, 5000);
 
     return () => clearInterval(interval);
   }, []);
@@ -221,8 +221,8 @@ export default function Hero() {
       </section>
       {/* ===== Center Toast ===== */}
       {toastMessage && (
-        <section className="fixed top-5 left-1/2 transform -translate-x-1/2 z-50">
-          <div className="text-black px-8 py-4 rounded-lg text-lg font-semibold">
+        <section className="fixed top-21 md:top-26 left-1/2 transform -translate-x-1/2 z-50">
+          <div className="bg-white text-black px-2 py-2 rounded-lg text-lg font-semibold">
             {toastMessage}
           </div>
         </section>
