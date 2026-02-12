@@ -221,8 +221,8 @@ export default function Hero() {
       </section>
       {/* ===== Center Toast ===== */}
       {toastMessage && (
-        <section className="fixed inset-0 z-50 flex items-center justify-center">
-          <div className=" text-black px-8 py-4 rounded-lg text-lg ">
+        <section className="fixed top-5 left-1/2 transform -translate-x-1/2 z-50">
+          <div className="text-black px-8 py-4 rounded-lg text-lg font-semibold">
             {toastMessage}
           </div>
         </section>
